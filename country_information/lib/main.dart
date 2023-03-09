@@ -1,6 +1,6 @@
 import 'package:country_information/bloc_observer.dart';
-import 'package:country_information/home.dart';
 import 'package:country_information/main_cubit.dart';
+import 'package:country_information/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.grey,
         ),
-        home: const Home(),
+        home: const SplashScreen(),
       ),
     );
   }
